@@ -81,7 +81,7 @@ Pregunta: ¿Qué tecnologías utiliza?
 Respuesta: Principalmente Angular 14, Java Spring, RAML, Firebase, Tailwind, Shopify, React y Django.
 `;
 
-app.post('/prueba', async (c) => {
+app.post('/chat', async (c) => {
     console.log('PETICION RECIBIDA');
 
     const body = await c.req.json();
